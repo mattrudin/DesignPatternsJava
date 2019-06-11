@@ -7,6 +7,10 @@ public class Document {
         this.saveFile = saveFile;
     }
 
+    public void performSave() {
+        saveFile.save();
+    }
+
     public void setSaveFile(Saveable saveFile) {
         this.saveFile = saveFile;
     }
