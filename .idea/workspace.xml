@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/observer/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/observer/Household.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/observer/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Sugar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
@@ -19,16 +19,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="320">
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +66,12 @@
         <option value="$PROJECT_DIR$/src/design/patterns/Company.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/observer/Household.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/observer/Company.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/decorator/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/decorator/Milk.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/decorator/Sugar.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
       </list>
     </option>
@@ -98,6 +106,13 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -165,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560224515196</updated>
       <workItem from="1560224520471" duration="2876000" />
-      <workItem from="1560361148263" duration="177000" />
+      <workItem from="1560361148263" duration="1078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3053000" />
+    <option name="totallyTimeSpent" value="3954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -185,7 +200,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,10 +324,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Sugar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="320">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,24 +1,19 @@
 package design.patterns;
 
-import design.patterns.observer.*;
+import design.patterns.decorator.Coffee;
+import design.patterns.decorator.Espresso;
+import design.patterns.decorator.Milk;
+import design.patterns.decorator.Sugar;
 
 public class Main {
 
     public static void main(String[] args) {
-        Journal GQ = new Journal();
-        Observer YourDailyCompany = new Company();
-        Observer YourNeighbour = new Household();
+        Coffee espressoWithMilkAndSugar = new Sugar(new Milk(new Espresso()));
+        System.out.println(espressoWithMilkAndSugar.cost());
+        System.out.println(espressoWithMilkAndSugar.getDescription());
 
-        // Register the observers
-        GQ.registerObserver(YourDailyCompany);
-        GQ.registerObserver(YourNeighbour);
-
-        // Change the title and push it to all observers
-        GQ.setTitleOfTheMonth("Amazing Hot Dogs for this Summer");
-        GQ.notifyObservers();
-
-        // Change the title and push it to all observers
-        GQ.setTitleOfTheMonth("99 BBQ Tips");
-        GQ.notifyObservers();
+        Coffee espressoWithMilk = new Milk(new Espresso());
+        System.out.println(espressoWithMilk.cost());
+        System.out.println(espressoWithMilk.getDescription());
     }
 }
