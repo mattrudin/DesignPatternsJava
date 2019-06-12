@@ -1,23 +1,24 @@
 package design.patterns;
 
-import design.patterns.strategy.Document;
-import design.patterns.strategy.SaveAsExcel;
-import design.patterns.strategy.SaveAsTXT;
-import design.patterns.strategy.SaveAsWord;
+import design.patterns.observer.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        Document excelFile = new Document(new SaveAsExcel());
-        Document txtFile = new Document(new SaveAsTXT());
-        Document wordFile = new Document(new SaveAsWord());
+        Journal GQ = new Journal();
+        Observer YourDailyCompany = new Company();
+        Observer YourNeighbour = new Household();
 
-        excelFile.performSave();
-        txtFile.performSave();
-        wordFile.performSave();
+        // Register the observers
+        GQ.registerObserver(YourDailyCompany);
+        GQ.registerObserver(YourNeighbour);
 
-        // Behaviour can be changed at runtime
-        excelFile.setSaveFile(new SaveAsTXT());
-        excelFile.performSave();
+        // Change the title and push it to all observers
+        GQ.setTitleOfTheMonth("Amazing Hot Dogs for this Summer");
+        GQ.notifyObservers();
+
+        // Change the title and push it to all observers
+        GQ.setTitleOfTheMonth("99 BBQ Tips");
+        GQ.notifyObservers();
     }
 }
