@@ -1,18 +1,15 @@
 package design.patterns;
 
-import design.patterns.abstractFactory.DocumentTypes;
-import design.patterns.abstractFactory.SaveAs;
-import design.patterns.abstractFactory.WebTypes;
+import design.patterns.singleton.Singleton;
+import design.patterns.singleton.SingletonDoubleChecked;
+import design.patterns.singleton.SingletonEagerly;
 
 public class Main {
 
     public static void main(String[] args) {
-        SaveAs saveFactory = new SaveAs();
-        saveFactory.generateOfficeOf(DocumentTypes.TXT);
-        saveFactory.generateOfficeOf(DocumentTypes.WORD);
-        saveFactory.generateOfficeOf(DocumentTypes.EXCEL);
-        saveFactory.generateWebOf(WebTypes.JS);
-        saveFactory.generateWebOf(WebTypes.HTML);
-        saveFactory.generateWebOf(WebTypes.CSS);
+        Singleton simpleInstance = Singleton.getInstance();
+        Singleton threadsafeInstance = Singleton.getThreadsafeInstance();
+        SingletonEagerly eagerlyInstance = SingletonEagerly.getInstance();
+        SingletonDoubleChecked doubleCheckedInstance = SingletonDoubleChecked.getInstance();
     }
 }

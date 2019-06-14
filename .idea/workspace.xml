@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/CSSDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/DocumentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/DocumentTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/ExcelDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/HTMLDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/JSDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/OfficeDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/TXTDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/WebDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/WebTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/WordDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,13 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -102,7 +89,11 @@
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/Errors.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/Error.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/Singleton.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java" />
       </list>
     </option>
   </component>
@@ -218,12 +209,13 @@
       <updated>1560224515196</updated>
       <workItem from="1560224520471" duration="2876000" />
       <workItem from="1560361148263" duration="1134000" />
-      <workItem from="1560484212494" duration="2535000" />
+      <workItem from="1560484212494" duration="2571000" />
+      <workItem from="1560524232476" duration="1424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6545000" />
+    <option name="totallyTimeSpent" value="8005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -625,11 +617,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
         </state>
       </provider>
     </entry>
