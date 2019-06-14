@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/decorator/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/DocumentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/ExcelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/TXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/TXTFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/factory/WordFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
@@ -26,11 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Document.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/Document.java" />
         <option value="$PROJECT_DIR$/src/Saveable.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/strategy/SaveAsTXT.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/strategy/SaveAsExcel.java" />
@@ -72,6 +71,15 @@
         <option value="$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/decorator/Milk.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/decorator/Sugar.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/Document.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/Word.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/Excel.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/TXT.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/DocumentFactory.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/WordFactory.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/ExcelFactory.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/TXTFactory.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/factory/Document.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
       </list>
     </option>
@@ -87,8 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +125,13 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -132,6 +145,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,18 +195,19 @@
       <option name="presentableId" value="Default" />
       <updated>1560224515196</updated>
       <workItem from="1560224520471" duration="2876000" />
-      <workItem from="1560361148263" duration="1078000" />
+      <workItem from="1560361148263" duration="1134000" />
+      <workItem from="1560484212494" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3954000" />
+    <option name="totallyTimeSpent" value="4785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -200,7 +216,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,13 +387,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/Excel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/TXT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/DocumentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/WordFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/ExcelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/TXTFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
         </state>
       </provider>
     </entry>
