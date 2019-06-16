@@ -12,6 +12,7 @@ public class SaveAs extends DocumentFactory {
                 return new ExcelDocument();
             default:
                 Error.valueOf(Errors.UNKNOWN_TYPE);
+                return (OfficeDocument) new Object();
         }
     }
 
@@ -26,6 +27,7 @@ public class SaveAs extends DocumentFactory {
                 return new HTMLDocument();
             default:
                 Error.valueOf(Errors.UNKNOWN_TYPE);
+                return (WebDocument) new Object();
         }
     }
 }
