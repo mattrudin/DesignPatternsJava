@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/command/RemoteControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java">
+        <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+            <state relative-caret-position="340">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,9 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Document.java" />
-        <option value="$PROJECT_DIR$/src/Saveable.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/strategy/SaveAsTXT.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/strategy/SaveAsExcel.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/strategy/SaveAsWord.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/strategy/ExcelFile.java" />
@@ -88,12 +89,18 @@
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/DocumentFactory.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/Errors.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/Error.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/singleton/SingletonEagerly.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/singleton/Command.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/command/Light.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/command/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/command/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" />
       </list>
     </option>
   </component>
@@ -210,12 +217,12 @@
       <workItem from="1560224520471" duration="2876000" />
       <workItem from="1560361148263" duration="1134000" />
       <workItem from="1560484212494" duration="2571000" />
-      <workItem from="1560524232476" duration="1424000" />
+      <workItem from="1560524232476" duration="2230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8005000" />
+    <option name="totallyTimeSpent" value="8811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -240,7 +247,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,17 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/WebDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/WebTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -608,23 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/singleton/SingletonDoubleChecked.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -643,6 +622,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/command/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/command/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/WebDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>

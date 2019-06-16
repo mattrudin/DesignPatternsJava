@@ -1,15 +1,24 @@
 package design.patterns;
 
-import design.patterns.singleton.Singleton;
-import design.patterns.singleton.SingletonDoubleChecked;
-import design.patterns.singleton.SingletonEagerly;
+import design.patterns.command.Light;
+import design.patterns.command.LightOffCommand;
+import design.patterns.command.LightOnCommand;
+import design.patterns.command.RemoteControl;
 
 public class Main {
 
     public static void main(String[] args) {
-        Singleton simpleInstance = Singleton.getInstance();
-        Singleton threadsafeInstance = Singleton.getThreadsafeInstance();
-        SingletonEagerly eagerlyInstance = SingletonEagerly.getInstance();
-        SingletonDoubleChecked doubleCheckedInstance = SingletonDoubleChecked.getInstance();
+        RemoteControl remote = new RemoteControl();
+        Light light = new Light();
+        LightOnCommand lightOn = new LightOnCommand(light);
+        LightOffCommand lightOff = new LightOffCommand(light);
+
+        // Set lightOn command
+        remote.setSlot(lightOn);
+        remote.pressButton();
+
+        // Set lightOff command
+        remote.setSlot(lightOff);
+        remote.pressButton();
     }
 }
