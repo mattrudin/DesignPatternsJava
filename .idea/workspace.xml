@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/adapter/EnumerationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/CPUfan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/ComputerFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/GraphicCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/HardDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/facade/Powerable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -47,14 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design/patterns/strategy/ExcelFile.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/strategy/Document.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/Subject.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/observer/Subject.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/observer/Journal.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/Company.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/observer/Household.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/observer/Company.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Coffee.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java" />
@@ -97,6 +93,14 @@
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/SaveAs.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/EnumerationIterator.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/adapter/EnumerationIterator.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/Powerable.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/Powerable.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/Motherboard.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/CPU.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/Harddisk.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/GraphicCard.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/CPUfan.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/facade/ComputerFacade.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
       </list>
     </option>
@@ -106,7 +110,9 @@
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,12 +167,12 @@
       <workItem from="1560224520471" duration="2876000" />
       <workItem from="1560361148263" duration="1134000" />
       <workItem from="1560484212494" duration="2571000" />
-      <workItem from="1560524232476" duration="4916000" />
+      <workItem from="1560524232476" duration="6302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11497000" />
+    <option name="totallyTimeSpent" value="12883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -181,7 +187,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,41 +213,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StrategyPattern/Document.java" />
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/strategy/SaveAsTXT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/strategy/SaveAsExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/strategy/SaveAsWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/strategy/ExcelFile.java" />
     <entry file="file://$PROJECT_DIR$/src/design/patterns/strategy/Saveable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -656,13 +627,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/Powerable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/Motherboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/GraphicCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/CPUfan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/ComputerFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/facade/HardDisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>

@@ -1,17 +1,19 @@
 package design.patterns;
 
-import design.patterns.adapter.EnumerationIterator;
-
-import java.util.Enumeration;
-import java.util.StringTokenizer;
+import design.patterns.facade.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        Enumeration enumeration = new StringTokenizer("This is a string.");
-        EnumerationIterator enumAdapter = new EnumerationIterator(enumeration);
-        for (enumAdapter.next(); enumAdapter.hasNext();) {
-            System.out.println(enumAdapter.next());
-        }
+        Powerable cpu = new CPU();
+        Powerable motherboard = new Motherboard();
+        Powerable hardDisk = new HardDisk();
+        Powerable graphicCard = new GraphicCard();
+        Powerable cpuFan = new CPUfan();
+
+        ComputerFacade computer = new ComputerFacade(cpu, motherboard, hardDisk, graphicCard, cpuFan);
+        computer.on();
+        System.out.println("\n ~~~~ Computer is running ~~~~\n");
+        computer.off();
     }
 }
