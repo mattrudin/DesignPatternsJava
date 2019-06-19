@@ -1,19 +1,16 @@
 package design.patterns;
 
-import design.patterns.facade.*;
+import design.patterns.templateMethod.CaffeinBeverage;
+import design.patterns.templateMethod.Coffee;
+import design.patterns.templateMethod.Tea;
 
 public class Main {
 
     public static void main(String[] args) {
-        Powerable cpu = new CPU();
-        Powerable motherboard = new Motherboard();
-        Powerable hardDisk = new HardDisk();
-        Powerable graphicCard = new GraphicCard();
-        Powerable cpuFan = new CPUfan();
+        CaffeinBeverage espresso = new Coffee("espresso");
+        espresso.prepareRecipe();
 
-        ComputerFacade computer = new ComputerFacade(cpu, motherboard, hardDisk, graphicCard, cpuFan);
-        computer.on();
-        System.out.println("\n ~~~~ Computer is running ~~~~\n");
-        computer.off();
+        CaffeinBeverage earlGrey = new Tea("earl grey tea");
+        earlGrey.prepareRecipe();
     }
 }
