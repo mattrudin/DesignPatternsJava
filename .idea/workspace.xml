@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27df456-37ae-4e63-a34e-7ab8c2db8b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/Clothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/Trousers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/TrousersIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/TshirtIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design/patterns/iterator/Tshirts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/CrashState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/DriveState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/MaintenanceState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/ManufacturingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/ParkState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/ScrapState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/patterns/state/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/design/patterns/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/patterns/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -53,15 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design/patterns/DocumentTypes.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/OfficeDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/WordDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/ExcelDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/TXTDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/WebTypes.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/HTMLDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/WebDocument.java" />
-        <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/CSSDocument.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/JSDocument.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/DocumentFactory.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/abstractFactory/Errors.java" />
@@ -103,6 +92,15 @@
         <option value="$PROJECT_DIR$/src/design/patterns/iterator/Trousers.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/iterator/Clothing.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/iterator/TshirtIterator.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/State.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/State.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/ManufacturingState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/DriveState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/ParkState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/CrashState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/MaintenanceState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/ScrapState.java" />
+        <option value="$PROJECT_DIR$/src/design/patterns/state/Car.java" />
         <option value="$PROJECT_DIR$/src/design/patterns/Main.java" />
       </list>
     </option>
@@ -126,6 +124,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="design.patterns.state" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,12 +172,12 @@
       <workItem from="1560224520471" duration="2876000" />
       <workItem from="1560361148263" duration="1134000" />
       <workItem from="1560484212494" duration="2571000" />
-      <workItem from="1560524232476" duration="11491000" />
+      <workItem from="1560524232476" duration="13884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18072000" />
+    <option name="totallyTimeSpent" value="20465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -189,7 +192,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -197,7 +200,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -215,82 +218,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Milk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Espresso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/decorator/Additionals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/Excel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/TXT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/DocumentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/WordFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/factory/ExcelFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -712,13 +639,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/ParkState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/DriveState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/CrashState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/MaintenanceState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/ManufacturingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/ScrapState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/patterns/state/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/patterns/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
